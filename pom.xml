@@ -84,6 +84,10 @@
 						<compilerArg>
 							-Amapstruct.suppressGeneratorVersionInfoComment=true
 						</compilerArg>
+						<!-- Utiliza para todos os mappers o component Spring para conversao-->
+						<compilerArg>
+							-Amapstruct.defaultComponentModel=spring
+						</compilerArg>
 					</compilerArgs>
 				</configuration>
 			</plugin>
